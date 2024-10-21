@@ -1,0 +1,40 @@
+{
+"id": "6707666d25e2e3d36ce3a68e",
+"created_at": "2024-10-10T05:30:21.955Z",
+"topic": "message.sender.user",
+"project_id": "665477a441afa7440bf553e6",
+"delivery_attempt": "1",
+"data": {
+"message": {
+"type": "message",
+"id": "6707666d0adb710f8dae5500",
+"meta_data": [],
+"project_id": "665477a441afa7440bf553e6",
+"phone_number": "917891053001",
+"contact_id": "665cac90751dbb08bac05cbe",
+"campaign": null,
+"sender": "USER",
+"message_content": {
+"text": "He hello"
+},
+"message_type": "TEXT",
+"status": "DELIVERED",
+"is_HSM": false,
+"chatbot_response": null,
+"agent_id": null,
+"sent_at": 1728538219000,
+"delivered_at": 1728538219000,
+"read_at": null,
+"failureResponse": {},
+"userName": "Ish Rajesh Shelley",
+"countryCode": "91",
+"submitted_message_id": "",
+"message_price": 0,
+"deductionType": null,
+"mau_details": null,
+"whatsapp_conversation_details": null,
+"context": null,
+"messageId": "wamid.HBgMOTE3ODkxMDUzMDAxFQIAEhggRkJFNTQzQ0RCNEMxN0Q0RTcxRjYxRDBEMzIzQzQyMjcA"
+}
+}
+}

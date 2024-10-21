@@ -1,0 +1,50 @@
+{
+    "messagesCount": 14,
+    "messagesDatewise": [
+        {
+            "date": "2024-10-17T18:30:00.000Z",
+            "count": 8
+        },
+        {
+            "date": "2024-10-18T18:30:00.000Z",
+            "count": 6
+        }
+    ],
+    "uniqueUsersCount": 10,
+    "usersDatewise": [
+        {
+            "date": "2024-10-17T18:30:00.000Z",
+            "count": 4
+        },
+        {
+            "date": "2024-10-18T18:30:00.000Z",
+            "count": 6
+        }
+    ],
+    "topicDistribution": {
+        "WEATHER_FORECASTS": 6,
+        "LEGAL_AND_REGULATORY_ADVICE": 5,
+        "FARM_EQUIPMENT": 2,
+        "FINANCIAL_SERVICES": 1,
+        "POSITIVE": 8,
+        "MIXED": 3,
+        "NEUTRAL": 2,
+        "CONFUSION": 1
+    },
+    "sentimentDistribution": {
+        "POSITIVE": 8,
+        "MIXED": 3,
+        "NEUTRAL": 2,
+        "CONFUSION": 1
+    },
+    "languageDistribution": {
+        "English": 8,
+        "Hindi": 5,
+        "Tamil": 1
+    },
+    "regionDistribution": {
+        "MUMBAI": 9,
+        "DELHI": 3,
+        "KARNATAKA": 2
+    }
+}

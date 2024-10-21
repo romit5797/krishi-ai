@@ -1,0 +1,34 @@
+# Do not change version. This is the version of aws buildspec, not the version of your buldspec file.
+version: 0.2
+phases:
+  install:
+    commands:
+      - echo Installing source NPM dependencies...
+      - npm install
+  pre_build:
+    commands:
+      - echo starting testing...
+      # - npm run test
+  build:
+    commands:
+      - echo "Build phase..."
+      - npm run build
+      # - echo copying config files to dist
+      # - npm run copy
+  post_build:
+    commands:
+      - echo "Post-build phase..."
+      - rm -rf src  # Remove the src directory to exclude it from the artifacts
+      - rm -rf tenants  # Remove the tenants directory to exclude it from the artifacts
+      - ls  -a # List the contents to verify the structure
+# Include only the files required for your application to run.
+artifacts:
+  files:
+    - "**/*"
+  base-directory: "."
+# reports:
+#   jest_reports:
+#     files:
+#       - test-report
+#     file-format: JUNITXML
+#     base-directory: coverage

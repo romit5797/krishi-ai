@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=fallback");
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+/* Additional styles */
+@import "additional-styles/utility-patterns.css";
+@import "additional-styles/flatpickr.css";
+
+@import "tailwindcss/utilities";
+
+.map-container svg {
+  background-color: transparent;
+  width: 100%;
+  height: calc(100% - 34px) !important;
+  top: 34px !important;
+  bottom: 0 !important;
+
+}

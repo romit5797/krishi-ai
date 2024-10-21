@@ -1,0 +1,16 @@
+export const topics = {
+  WEATHER_FORECASTS: "Weather Forecasts",
+  CROP_SELECTION_ADVICE: "Crop Selection Advice",
+  PEST_AND_DISEASE_MANAGEMENT: "Pest and Disease Management",
+  IRRIGATION_MANAGEMENT: "Irrigation Management",
+  AGRICULTURAL_PRACTICES: "Agricultural Practices",
+  GOVERNMENT_SCHEMES_AND_SUBSIDIES: "Government Schemes and Subsidies",
+  MARKET_PRICES_AND_TRENDS: "Market Prices and Trends",
+  SOIL_HEALTH_MANAGEMENT: "Soil Health Management",
+  FARM_EQUIPMENT: "Farm Equipment",
+  LEGAL_AND_REGULATORY_ADVICE: "Legal and Regulatory Advice",
+  FINANCIAL_SERVICES: "Financial Services",
+  COMMUNITY_AND_EVENTS: "Community and Events",
+  SUSTAINABLE_PRACTICES: "Sustainable Practices",
+  ANIMAL_HUSBANDRY: "Animal Husbandry",
+};
